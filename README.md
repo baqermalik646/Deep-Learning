@@ -1,5 +1,14 @@
 # Unit 21 Homework: Charity Funding Predictor
 
+## Report
+
+I used four hidden layers with 100, 30, 10 and 3 nodes. 
+At first, the model did not yield the desired accuracy more than 75% as there was only one hidden layer with 100 nodes and it yielded an accuracy of 48.6%. The activation of the model was "relu" in the hidden layer and "sigmoid" in the output layer.
+
+By adding more hidden layers and incorporating additional optimizers softmax and tanh, accuracy increased to 72.82%, but could not achieve a target predictive accuracy higher than 75%.
+
+
+
 ## Background
 
 The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
