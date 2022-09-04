@@ -5,7 +5,7 @@
 I used four hidden layers with 100, 30, 10 and 3 nodes. 
 At first, the model did not yield the desired accuracy more than 75% as there was only one hidden layer with 100 nodes and it yielded an accuracy of 48.6%. The activation of the model was "relu" in the hidden layer and "sigmoid" in the output layer.
 
-By adding more hidden layers and incorporating additional optimizers softmax and tanh, accuracy increased to 72.82%, but could not achieve a target predictive accuracy higher than 75%.
+By adding more hidden layers and incorporating additional optimizers softmax and tanh, accuracy increased to 72.99%, but could not achieve a target predictive accuracy higher than 75%.
 
 
 
